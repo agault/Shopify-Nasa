@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Planetgram</title>
+    <script type="text/javascript" src="../javascript/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/f34ccd92c8.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" href="../css/NASA.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230113d8%22></rect><path fill=%22%23fff%22 d=%22M6.78 62.36L6.78 62.36Q5.02 62.36 5.02 60.92L5.02 60.92L5.02 38.32Q5.74 37.60 7.18 37.60L7.18 37.60Q8.14 37.60 8.82 37.98Q9.50 38.36 10.06 39.36L10.06 39.36L17.70 52.16Q18.18 53 18.70 53.94Q19.22 54.88 19.70 55.82Q20.18 56.76 20.60 57.58Q21.02 58.40 21.30 58.96L21.30 58.96L21.46 58.92Q21.14 55.68 21.08 52.40Q21.02 49.12 21.02 46L21.02 46L21.02 37.92Q21.26 37.84 21.66 37.74Q22.06 37.64 22.54 37.64L22.54 37.64Q24.30 37.64 24.30 39.08L24.30 39.08L24.30 61.72Q23.94 62.04 23.38 62.22Q22.82 62.40 22.14 62.40L22.14 62.40Q21.18 62.40 20.50 62.02Q19.82 61.64 19.26 60.64L19.26 60.64L11.66 47.84Q11.18 47.04 10.64 46.08Q10.10 45.12 9.60 44.20Q9.10 43.28 8.68 42.44Q8.26 41.60 7.98 41.04L7.98 41.04L7.82 41.08Q8.02 43 8.14 45.46Q8.26 47.92 8.26 50.12L8.26 50.12L8.26 62.08Q8.06 62.16 7.64 62.26Q7.22 62.36 6.78 62.36ZM46.78 61.00L44.98 55.68L34.26 55.68Q33.98 56.48 33.66 57.42Q33.34 58.36 33.04 59.26Q32.74 60.16 32.46 60.94Q32.18 61.72 32.02 62.24L32.02 62.24Q31.46 62.48 30.70 62.48L30.70 62.48Q30.06 62.48 29.56 62.14Q29.06 61.80 29.06 61.04L29.06 61.04Q29.06 60.68 29.18 60.30Q29.30 59.92 29.46 59.48L29.46 59.48Q30.06 57.80 31.00 55.16Q31.94 52.52 33.04 49.54Q34.14 46.56 35.28 43.54Q36.42 40.52 37.38 38.12L37.38 38.12Q37.70 37.96 38.34 37.80Q38.98 37.64 39.66 37.64L39.66 37.64Q40.46 37.64 41.20 37.88Q41.94 38.12 42.14 38.68L42.14 38.68Q43.10 41 44.20 43.98Q45.30 46.96 46.42 50.08Q47.54 53.20 48.56 56.22Q49.58 59.24 50.38 61.68L50.38 61.68Q50.06 62.04 49.62 62.26Q49.18 62.48 48.62 62.48L48.62 62.48Q47.86 62.48 47.46 62.14Q47.06 61.80 46.78 61.00L46.78 61.00ZM39.78 40.36L39.62 40.36Q39.18 41.56 38.62 43.10Q38.06 44.64 37.46 46.32Q36.86 48 36.26 49.72Q35.66 51.44 35.14 53L35.14 53L44.14 53Q43.54 51.20 42.90 49.38Q42.26 47.56 41.68 45.88Q41.10 44.20 40.60 42.78Q40.10 41.36 39.78 40.36L39.78 40.36ZM61.82 59.96L61.82 59.96Q64.50 59.96 65.88 58.74Q67.26 57.52 67.26 55.60L67.26 55.60Q67.26 53.92 66.20 52.88Q65.14 51.84 62.86 51.16L62.86 51.16L59.38 50.12Q56.82 49.36 55.36 47.88Q53.90 46.40 53.90 43.88L53.90 43.88Q53.90 42.36 54.48 41.14Q55.06 39.92 56.14 39.08Q57.22 38.24 58.72 37.78Q60.22 37.32 62.10 37.32L62.10 37.32Q63.70 37.32 65.08 37.58Q66.46 37.84 67.48 38.30Q68.50 38.76 69.06 39.32Q69.62 39.88 69.62 40.48L69.62 40.48Q69.62 41.04 69.34 41.44Q69.06 41.84 68.62 42.08L68.62 42.08Q67.58 41.28 65.92 40.68Q64.26 40.08 62.22 40.08L62.22 40.08Q59.86 40.08 58.52 41.08Q57.18 42.08 57.18 43.88L57.18 43.88Q57.18 45.28 58.14 46.16Q59.10 47.04 61.34 47.68L61.34 47.68L63.78 48.40Q66.94 49.32 68.76 50.98Q70.58 52.64 70.58 55.60L70.58 55.60Q70.58 58.76 68.30 60.72Q66.02 62.68 61.82 62.68L61.82 62.68Q59.98 62.68 58.48 62.36Q56.98 62.04 55.92 61.52Q54.86 61.00 54.28 60.38Q53.70 59.76 53.70 59.16L53.70 59.16Q53.70 58.48 54.12 58.02Q54.54 57.56 55.10 57.36L55.10 57.36Q55.54 57.80 56.18 58.26Q56.82 58.72 57.66 59.10Q58.50 59.48 59.54 59.72Q60.58 59.96 61.82 59.96ZM91.38 61.00L89.58 55.68L78.86 55.68Q78.58 56.48 78.26 57.42Q77.94 58.36 77.64 59.26Q77.34 60.16 77.06 60.94Q76.78 61.72 76.62 62.24L76.62 62.24Q76.06 62.48 75.30 62.48L75.30 62.48Q74.66 62.48 74.16 62.14Q73.66 61.80 73.66 61.04L73.66 61.04Q73.66 60.68 73.78 60.30Q73.90 59.92 74.06 59.48L74.06 59.48Q74.66 57.80 75.60 55.16Q76.54 52.52 77.64 49.54Q78.74 46.56 79.88 43.54Q81.02 40.52 81.98 38.12L81.98 38.12Q82.30 37.96 82.94 37.80Q83.58 37.64 84.26 37.64L84.26 37.64Q85.06 37.64 85.80 37.88Q86.54 38.12 86.74 38.68L86.74 38.68Q87.70 41 88.80 43.98Q89.90 46.96 91.02 50.08Q92.14 53.20 93.16 56.22Q94.18 59.24 94.98 61.68L94.98 61.68Q94.66 62.04 94.22 62.26Q93.78 62.48 93.22 62.48L93.22 62.48Q92.46 62.48 92.06 62.14Q91.66 61.80 91.38 61.00L91.38 61.00ZM84.38 40.36L84.22 40.36Q83.78 41.56 83.22 43.10Q82.66 44.64 82.06 46.32Q81.46 48 80.86 49.72Q80.26 51.44 79.74 53L79.74 53L88.74 53Q88.14 51.20 87.50 49.38Q86.86 47.56 86.28 45.88Q85.70 44.20 85.20 42.78Q84.70 41.36 84.38 40.36L84.38 40.36Z%22></path></svg>" />
+
+</head>
+<script>
+    function myFunction() {
+       var element = document.getElementById("like");
+       element.classList.toggle("likeStyle");
+    }
+    function myFunction1() {
+       var element1 = document.getElementById("like1");
+       element1.classList.toggle("likeStyle");
+    }
+</script>
+<body>
+    <h1>Planetgram</h1>
+    <!-- NAV -->
+    <nav id="nav_bar">
+        <ul>
+            <li><a href="https://asialevesquegault.com/about.html">About</a></li>
+            <li><a href="https://asialevesquegault.com/animation/HTML/animation.html">Animation</a></li>
+            <li><a href="https://asialevesquegault.com/portfolio.html">More</a> </li>
+        </ul>
+    </nav>
+
+    <!-- Section that holds cards-->
+    <section class="cards">
+            <!-- Component Display -->
+        <article class="card">
+            <!-- Title -->
+            <h3>Today's Planetgram</h3>
+            <!-- Span to hold photo -->
+            <span id="image"></span>
+            <!-- Info of picture -->
+            <div>
+                <h4 id="title"></h4>
+                <p id="date"></p>
+                <p id="description"></p>
+            </div>
+            <!-- button: Like -->
+            <button type="button" class="like" id="like" onclick="myFunction()"><i class="far fa-heart"></i></button>
+        </article>
+
+        <!-- Component Display by date -->
+        <article class="card" id="cardDate">
+            <!-- Title -->
+            <h3>Search by Date</h3>
+            <!-- Span For Image -->
+            <span id="imageDate"></span>
+            <!-- Info of picture -->
+            <div>
+                <h4 id="titleDate"></h4>
+                <p id="dateDate"></p>
+                <p id="descriptionDate"></p>
+            </div>
+            <!-- error msg -->
+            <span id="errMsg"></span>
+            <!-- Form for date -->
+            <form action="#" method="post" id="checkDate" name="checkDate">
+                <label for="searchDate" class="searchDate">Get Image by Date: </label><br />
+                <input id="searchDate" type="date" Placeholder="yyyy-mm-dd"></input> <br />
+            </form>
+            
+            <button type="button" id="getDateValue" class="viewPic"><i class="fas fa-search"></i></button>
+            <button type="button" class="like" id="like1" onclick="myFunction1()"><i class="far fa-heart"></i></button>
+        </article>
+    </section>
+
+    <script async defer type="text/javascript" src="../js/NASA.js" charset="utf-8"></script>
+</body>
+
+</html>
